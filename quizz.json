@@ -1,0 +1,312 @@
+{
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Dans La Casa de Papel , les braqueurs utilisent le nom d'une ville comme pseudo,lesquelles ne sont pas utilisées ?",
+        "propositions": [
+          "Lisbonne,Washington et Dakar",
+          "Washington, Pékin et Paris",
+          "Dakar, Marseille et pékin",
+          "Marseille,New-York et Lisbonne
+        ],
+        "réponse": "Washington, Pékin et Paris",
+        "anecdote": "Lisbonne et Marseille sont des personnages qui apparaissent dans la troisième saison. »."
+      },
+      {
+        "id": 2,
+        "question": "De quelle reine d'Angleterre la serie The Crown met elle en scene l'histoire ?",
+        "propositions": [
+          "Marie Stuart",
+          "Victoria",
+          "Elisabeth II",
+          "Anne"
+        ],
+        "réponse": "Elisabeth II",
+        "anecdote": "The Crown est une série Américano-Britanique créée par Peter Morgan "
+      },
+      {
+        "id": 3,
+        "question": "En Mars 2019, Luke Perry a succombé a un AVC alors qu 'il tournait la saison 3 de ...?",
+        "propositions": [
+          "Dark",
+          "Riverdale",
+          "Stranger Things" ,
+          "The Witcher"
+        ],
+        "réponse": "Riverdale",
+        "anecdote": "Luke Perry a joué dans Beverly hills"
+      },
+      {
+        "id": 4,
+        "question": "Quel acteur incarne Geralt de riv dans The witcher ",
+        "propositions": [
+          "Thierry Henry",
+          "Tom Ellis ",
+          "Henry Cavill"
+          "Tom Cruise
+        ],
+        "réponse": "Henry Cavill",
+        "anecdote": "le tres muscle Henry cavill hein Nejma et Marine "
+      },
+      {
+        "id": 5,
+        "question": "Qui est le premier héros Marvel a avoir debarqué sur Netflix ?",
+        "propositions": [
+          "Daredevil",
+          "Iron Man",
+          "Super Tomate",
+          "Spiderman"
+        ],
+        "réponse": "Daredevil",
+        "anecdote": "Ben Affleck a dû se soumettre à un entrainement intensif pour devenir le super héros Daredevil."
+      },
+      {
+        "id": 6,
+        "question": "Quel personnage apparait le plus dans Games of trone ?",
+        "propositions": [
+          "Daenerys",
+          "Tyrion",
+          "Cersei",
+          "John"
+        ],
+        "réponse": "Tyrion",
+        "anecdote": "Game of Trone est la série la plus piratée de tous les temps."
+      },
+      {
+        "id": 7,
+        "question": "Qui est à l'origine du c'est pas faux ?",
+        "propositions": [
+          "Arthur",
+          "Perceval",
+          "Karadoc",
+          "Merlin"
+        ],
+        "réponse": "Karadoc",
+        "anecdote": "En termes de blagues/minute, Kamelott est la 2éme série française la plus drole."
+      },
+      {
+        "id": 8,
+        "question": "Le grand ennemi d'Harry Potter est  ?",
+        "propositions": [
+          "Donald Trump",
+          "Philippe Etchebest ",
+          "Eric Zemmour",
+          "Lord Voldemort"
+        ],
+        "réponse": "Lord Voldemort",
+        "anecdote": "le tournage des 8 films a demandé  160 paires de lunettes pour Harry."
+      },
+      {
+        "id": 9,
+        "question": "Leque de ces pokemon n'est pas légendaire ?",
+        "propositions": [
+          "Elektek",
+          "Sulkfura",
+          "Darkrai",
+          "Créhelf"
+        ],
+        "réponse": "Elektek",
+        "anecdote": "Toutes les régions des jeux Pokémon sont inspirées de lieux réels ."
+      },
+      {
+        "id": 10,
+        "question":" Quel est le modèle de le célèbre voiture du lieutenant Columbo ?",
+        "propositions": [
+          "Une Dodge Avenger",
+          "Une Porche Cayenne",
+          "une 2cv",
+          "Une Peugeot 403"
+        ],
+        "réponse": "Une Peugeot 403",
+        "anecdote": " Peter falk a choisi lui même l'emblématique Peugeot 403 qui appuyait le coté décalé du personnage ."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": " Quelle est la plus longue série de prime time de la télévision américaine ?",
+        "propositions": [
+          "Grey's Anatomy",
+          "Les Simpson",
+          "New York, unité spéciale",
+          "NCIS"
+        ],
+        "réponse": "Les Simpson",
+        "anecdote": " Les Simpson ont atteint la barre des 636 épisodes en 2018."
+      },
+      {
+        "id": 12,
+        "question": "Quel est le numero du vol lors du  crash dans Lost ?",
+        "propositions": [
+          "615",
+          "815",
+          "518",
+          "158"
+        ],
+        "réponse": "815",
+        "anecdote": "La fin de Lost est l'une des fins de série les plus critiquées."
+      },
+      {
+        "id": 13,
+        "question": "Quel était le métier de June avant la république de Gilead (The Handmaid's Tale) ?",
+        "propositions": [
+          "Écrivaine",
+          "Bibliothécaire",
+          "Journaliste",
+          "Éditrice de livres"
+        ],
+        "réponse": "Éditrice de livres",
+        "anecdote": "The Handmaid's Tale est une série résolument féministe."
+      },
+      {
+        "id": 14,
+        "question": "Quel est e prénom du personnage principal dans Prison Break?",
+        "propositions": [
+          "Michael",
+          "Lincolm",
+          "Sara",
+          "Bryan"
+        ],
+        "réponse": "Michael",
+        "anecdote": "Wentworth Miller (michael) a révélé son homosexualité en 2013 au grand désespoir de nombreuses femmes ."
+      },
+      {
+        "id": 15,
+        "question": " Quelle est l'expression favorite de Doc ?",
+        "propositions": [
+          "Nom de nom",
+          "Nom d'une pipe",
+          "Nom de Zeus",
+          "Nom de Dieu"
+        ],
+        "réponse": "Nom de zeus",
+        "anecdote": "Aucun studio ne voulait produire Retour vers le futur."
+      },
+      {
+        "id": 16,
+        "question": "De quel film naît un quiproquo suite à cette réplique: Leblanc, c'est son nom et c'est Juste, son prénom ?",
+        "propositions": [
+          "La cité de la peur",
+          "Le pere noel est une ordre ",
+          "Le dinier de cons",
+          "L'aile ou la cuisse"
+        ],
+        "réponse": "Le diner de cons",
+        "anecdote": "Les dîners de cons ont vraiment existé chez Castel (restaurant parisien)."
+      },
+      {
+        "id": 17,
+        "question": "Quel est le surnom que tout le monde donne à tout le monde dans le Nord ?",
+        "propositions": [
+          "Biroute",
+          "Chicon",
+          "Biloute",
+          "Copain"
+        ],
+        "réponse": "Biloute",
+        "anecdote": " Bienvenue chez les ch'tis marque le deuxième plus gros carton de l'histoire derrière Titanic."
+      },
+      {
+        "id": 18,
+        "question": "Lequel de ces films de voitures raconte l'organisation d'une course à la mort en prison, qui permet au gagnant d'être libéré  ?",
+        "propositions": [
+          "Death Race",
+          "Fast And Furious",
+          " Need For Speed",
+          "La coccinelle"
+        ],
+        "réponse": "Death Race",
+        "anecdote": "Death Race est un remake de La Course à la mort de l'an 2000."
+      },
+      {
+        "id": 19,
+        "question": "Quel est le film très connu, parlant d'un paquebot qui coule à cause d'un iceberg  ?",
+        "propositions": [
+          "Titanic",
+          "Le Petit Nicolas",
+          "Stuart Little",
+          "Le Monde de Narnia"
+        ],
+        "réponse": "Titanic",
+        "anecdote": " Le 14 avril 1912 à 23h40, Le Titanic a percuté un iceberg et sombré en moins de trois heures."
+      },
+      {
+        "id": 20,
+        "question": "Dans quel film peut-on entendre Quand tu te mouches t’as pas l’impression de serrer la main à un pote  ?",
+        "propositions": [
+          "Les bronzés font du ski",
+          "Les Visiteurs",
+          "Astérix et Obélix : Mission Cléopâtre",
+          "Le Père Noël est une ordure"
+        ],
+        "réponse": "Les Visiteurs",
+        "anecdote": "C'est Ginette qui dit cette réplique dans Les Visiteurs.."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Complétez cette réplique du film Toy Story : Vers l’infini… : ?",
+        "propositions": [
+          "...et bien plus loin",
+          "...et au-dela !",
+          "...et plus encorec !",
+          "...et bien encore "
+        ],
+        "réponse": "...et au-dela !",
+        "anecdote": "Toy Story  s'inspire de l'Arme Fatale."
+      },
+      {
+        "id": 22,
+        "question": "Dans quelle série Netflix, nous découvrons les dérives possibles des écrans que nous utilisons tous les jours  ?",
+        "propositions": [
+          "Mindhunter",
+          "Godless",
+          "The OA",
+          "Black mirror"
+        ],
+        "réponse": "Black mirror",
+        "anecdote": "Black Mirror est une série centrée sur le thème de notre rapport à de nouvelles technologies qui partent très souvent en cacahuète."
+      },
+      {
+        "id": 23,
+        "question": "Dans Lucifer, comment se nomme le nightclub de Lucifer  ?",
+        "propositions": [
+          "Le Lux",
+          "Le Nux",
+          "Le Sux",
+          "Le Pux"
+        ],
+        "réponse": "Le Lux",
+        "anecdote": "Lucifer était tiré d'une bande-dessinée dans les comics The Sandman."
+      },
+      {
+        "id": 24,
+        "question": "Dans The 100, comment se nomme le chancelier au tout début de la série ?",
+        "propositions": [
+          "Jaha",
+          "Abigail Griffin",
+          "Marcus Kane",
+          "Mota"
+        ],
+        "réponse": "Jaha",
+        "anecdote": " Les noms de famille des jeunes personnages de la série ont quasiment tous été inspirés par des auteurs de science-fiction."
+      },
+      {
+        "id": 25,
+        "question": "Dans The Walking Dead, qui sont les ennemis des humains ?",
+        "propositions": [
+          "Des voleurs",
+          "Des zombies",
+          "Des sauvages",
+          "Des monstres"
+        ],
+        "réponse": "Des zombies",
+        "anecdote": "Deux zombies du film La Nuit Des Morts-Vivants (1985) apparaissent dans la série (épisodes 4X15 et 7X09) et 2 zombies de Bienvenue à Zombieland (2009) dans le premier épisode."
+      }
+    ]
+  }
+}
+}
