@@ -30,7 +30,7 @@ h1
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-button
+.btn
 {
     border-radius: 40px 40px;
     background-color: cornflowerblue;
