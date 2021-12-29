@@ -7,31 +7,87 @@ h1
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 80px;
-    font-weight: bolder;
     font-style: oblique;
 }
-.question
+p
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bolder;
     font-style: oblique;  
 }
 .flex
 {
-    max-width: 1024px;
     display: flex;
     flex-wrap: wrap;
+}
+.reponse
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    font-style: oblique;   
+}
+#question1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+#question2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+#question3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+#question4
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+#question5
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+#question6
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
 }
 .button
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
+    margin-top: 80px;
 }
 .btn
 {
     border-radius: 40px 40px;
     background-color: cornflowerblue;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+footer
+{
+    display: flex;
+    justify-content: flex-end;
 }
