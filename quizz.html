@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quizz.css">
+    <title>QUIZZ</title>
+</head>
+<body>
+    <header>
+        <h1>QUIZZ</h1>
+    </header>
+    <main>
+        <p>Testez vos connaissances !</p>
+        <form action="#">
+            <div class="flex" >
+            <div id="question1">
+                <div class="reponse">
+                    <input type="radio" id="propositionn1" name="question1">
+                    <label for="propositionn1"></label>
+                </div>
+                <div class="reponse">
+                    <input type="radio" id="propositionn2" name="question1">
+                    <label for="propositionn2"></label>
+                </div>
+                <div class="reponse">
+                    <input type="radio" id="propositionn3" name="question1">
+                    <label for="propositionn3"></label>
+                </div>
+                <div class="reponse">
+                    <input type="radio" id="propositionn4" name="question1">
+                    <label for="propositionn4"></label>
+                </div>
+            </div>
+            <div id="question2">
+                <div class="reponse">
+                    <input type="radio" id="propositionn2_1" name="question2">
+                    <label for="propositionn2_1"></label>
+                </div>
+                <div class="reponse">
+                    <input type="radio" id="propositionn2_2" name="question2">
+                    <label for="propositionn2_2"></label>
+                </div>
+                <div class="reponse">
+                    <input type="radio" id="propositionn2_3" name="question2">
+                    <label for="propositionn2_3"></label>
+                </div>
+                <div class="reponse">
+                    <input type="radio" id="propositionn2_4" name="question2">
+                    <label for="propositionn2_4"></label>
+                </div>
+            </div>
+            </div>   
+        <div class="button">
+            <!-- appel de la fonction valider lors du clic sur le bouton -->
+            <button type="submit" class="btn" onclick="valider()">Valider</button>
+        </div>
+        </form>
+    </main>
+    <footer>
+            <label for="score">Votre score:</label>
+            <textarea id="score" name="score"  rows="2" cols="15">
+            </textarea>
+    </footer>
+    <script src="quizz.js"></script>
+</body>
+</html>
