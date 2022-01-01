@@ -1,6 +1,6 @@
 body{
     background-color: aquamarine;
-    color: black;
+    color: blue;
 }
 h1
 {
@@ -8,6 +8,7 @@ h1
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 80px;
     font-style: oblique;
+
 }
 p
 {
@@ -15,11 +16,14 @@ p
     font-size: 20px;
     font-weight: bolder;
     font-style: oblique;  
+
 }
 .flex
 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
 }
 .reponse
 {
@@ -32,42 +36,21 @@ p
 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+  justify-content: center;
     width: 600px;
 }
 #question2
 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+   
     width: 600px;
 }
 #question3
 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 600px;
-}
-#question4
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 600px;
-}
-#question5
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 600px;
-}
-#question6
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
     width: 600px;
 }
 .button

@@ -22,29 +22,7 @@ async function start()
     console.log(selectedQuestions);
     //j'affiche ma premiere question //
     const q1 = document.getElementById("question1");
-    q1.innerHTML='<p>'+selectedQuestions[0].question+'</p>' ;
-
-
- // j affiche mes reponses question 1//
-    const p1 = document.getElementById("propositionn1");
-    const p2 = document.getElementById("propositionn2");
-    const p3 = document.getElementById("propositionn3");
-    const p4 = document.getElementById("propositionn4");
-
-    p1.innerHTML = '<input type="radio" id="propositionn1" name="question1"><label for="propositionn1">'+selectedQuestions[0].propositions[0]+'</label>';       
-    document.getElementById('question1').appendChild(p1);  
-
-    p2.innerHTML = '<input type="radio" id="propositionn2" name="question1"><label for="propositionn2">'+selectedQuestions[0].propositions[1]+'</label>';       
-    document.getElementById('question1').appendChild(p2); 
-
-    p3.innerHTML = '<input type="radio" id="propositionn3" name="question1"><label for="propositionn3">'+selectedQuestions[0].propositions[2]+'</label>';       
-    document.getElementById('question1').appendChild(p3); 
-
-    p4.innerHTML = '<input type="radio" id="propositionn4" name="question1"><label for="propositionn4">'+selectedQuestions[0].propositions[3]+'</label>';       
-    document.getElementById('question1').appendChild(p4); 
-
-
-
+    q1.innerHTML='<p>'+selectedQuestions[0].question+'</p>' 
 // j'affiche la deuxieme question//
     const q2 = document.getElementById("question2");
 
@@ -54,6 +32,24 @@ async function start()
     const q3 = document.getElementById("question3");
 
     q3.innerHTML='<p>'+selectedQuestions[2].question+'</p>' ;
+
+     // j affiche mes reponses question 1//
+    const p1 = document.getElementById("propositionn1");
+    const p2 = document.getElementById("propositionn2");
+    const p3 = document.getElementById("propositionn3");
+    const p4 = document.getElementById("propositionn4");
+
+    p1.innerHTML = `<input type="radio" id="proposition1" name="question1"><label for="proposition1">${selectedQuestions[0].propositions[0]}</label>`;       
+    document.getElementById('question1').appendChild(p1);  
+
+    p2.innerHTML = '<input type="radio" id="propositionn2" name="question1"><label for="propositionn2">'+selectedQuestions[0].propositions[1]+'</label>';       
+    document.getElementById('question1').appendChild(p2); 
+
+    p3.innerHTML = '<input type="radio" id="propositionn3" name="question1"><label for="propositionn3">'+selectedQuestions[0].propositions[2]+'</label>';       
+    document.getElementById('question1').appendChild(p3); 
+
+    p4.innerHTML = '<input type="radio" id="propositionn4" name="question1"><label for="propositionn4">'+selectedQuestions[0].propositions[3]+'</label>';       
+    document.getElementById('question1').appendChild(p4);  
 
 }
 
@@ -70,7 +66,8 @@ function shuffleArray(array) {
     return array.sort(() => 0.5 - Math.random());
 }
 
+
 function valider() {
-    var r1=document.getElementById("propositionn1").value;
+    var r1=document.getElementById("proposition1").value;
     console.log(r1);
 }
