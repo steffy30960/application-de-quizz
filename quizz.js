@@ -34,10 +34,10 @@ async function start()
     q3.innerHTML='<p>'+selectedQuestions[2].question+'</p>' ;
 
      // j affiche mes reponses question 1//
-    const p1 = document.getElementById("propositionn1");
-    const p2 = document.getElementById("propositionn2");
-    const p3 = document.getElementById("propositionn3");
-    const p4 = document.getElementById("propositionn4");
+    const p1 = document.getElementById("label1");
+    const p2 = document.getElementById("label2");
+    const p3 = document.getElementById("label3");
+    const p4 = document.getElementById("label4");
     
     p1.innerHTML = '<input type="radio" id="propositionn1" name="question1"><label for="propositionn1">'+selectedQuestions[0].propositions[0]+'</label>';         
     document.getElementById('question1').appendChild(p1);  
@@ -50,8 +50,43 @@ async function start()
 
     p4.innerHTML = '<input type="radio" id="propositionn4" name="question1"><label for="propositionn4">'+selectedQuestions[0].propositions[3]+'</label>';       
     document.getElementById('question1').appendChild(p4);  
+// j'affiche les reponses de question 2//
+    const p5 = document.getElementById("label2_1");
+    const p6 = document.getElementById("label2_2");
+    const p7 = document.getElementById("label2_3");
+    const p8 = document.getElementById("label2_4");
 
+    p5.innerHTML = '<input type="radio" id="propositionn2_1" name="question2"><label for="propositionn2_1">'+selectedQuestions[1].propositions[0]+'</label>';         
+    document.getElementById('question2').appendChild(p5);  
+
+    p6.innerHTML = '<input type="radio" id="propositionn2_2" name="question2"><label for="propositionn2_2">'+selectedQuestions[1].propositions[1]+'</label>';               
+    document.getElementById('question2').appendChild(p6); 
+
+    p7.innerHTML = '<input type="radio" id="propositionn2_3" name="question2"><label for="propositionn2_3">'+selectedQuestions[1].propositions[2]+'</label>';       
+    document.getElementById('question2').appendChild(p7); 
+
+    p8.innerHTML = '<input type="radio" id="propositionn2_4" name="question2"><label for="propositionn2_4">'+selectedQuestions[1].propositions[3]+'</label>';       
+    document.getElementById('question2').appendChild(p8); 
+// j'affiche les reponses des questions 3//
+    const p9 = document.getElementById("label3_1");
+    const p10 = document.getElementById("label3_2");
+    const p11 = document.getElementById("label3_3");
+    const p12 = document.getElementById("label3_4");
+
+    p9.innerHTML = '<input type="radio" id="propositionn3_1" name="question3"><label for="propositionn3_1">'+selectedQuestions[2].propositions[0]+'</label>';         
+    document.getElementById('question3').appendChild(p9);  
+
+    p10.innerHTML = '<input type="radio" id="propositionn3_2" name="question3"><label for="propositionn3_2">'+selectedQuestions[2].propositions[1]+'</label>';               
+    document.getElementById('question3').appendChild(p10); 
+
+    p11.innerHTML = '<input type="radio" id="propositionn3_3" name="question3"><label for="propositionn3_3">'+selectedQuestions[2].propositions[2]+'</label>';       
+    document.getElementById('question3').appendChild(p11); 
+
+    p12.innerHTML = '<input type="radio" id="propositionn3_4" name="question3"><label for="propositionn3_4">'+selectedQuestions[2].propositions[3]+'</label>';       
+    document.getElementById('question3').appendChild(p12);
 }
+
+
 
 //je crée une fonction pour recuperer mon fichier json qui contient le quizz//
 async function getJson()
