@@ -5,7 +5,7 @@ start();
 async function start()
 {
    // Récupère le tableau json
-   const data = await getJson(); 
+    const data = await getJson(); 
    //je stocke les valeurs dans mon tableau//
     array=data;
    // Affiche pour tester les question dans la console 
@@ -38,11 +38,11 @@ async function start()
     const p2 = document.getElementById("propositionn2");
     const p3 = document.getElementById("propositionn3");
     const p4 = document.getElementById("propositionn4");
-
-    p1.innerHTML = `<input type="radio" id="proposition1" name="question1"><label for="proposition1">${selectedQuestions[0].propositions[0]}</label>`;       
+    
+    p1.innerHTML = '<input type="radio" id="propositionn1" name="question1"><label for="propositionn1">'+selectedQuestions[0].propositions[0]+'</label>';         
     document.getElementById('question1').appendChild(p1);  
 
-    p2.innerHTML = '<input type="radio" id="propositionn2" name="question1"><label for="propositionn2">'+selectedQuestions[0].propositions[1]+'</label>';       
+    p2.innerHTML = '<input type="radio" id="propositionn2" name="question1"><label for="propositionn2">'+selectedQuestions[0].propositions[1]+'</label>';               
     document.getElementById('question1').appendChild(p2); 
 
     p3.innerHTML = '<input type="radio" id="propositionn3" name="question1"><label for="propositionn3">'+selectedQuestions[0].propositions[2]+'</label>';       
@@ -68,6 +68,6 @@ function shuffleArray(array) {
 
 
 function valider() {
-    var r1=document.getElementById("proposition1").value;
+    var r1=document.getElementById("propositionn1").value;
     console.log(r1);
 }
