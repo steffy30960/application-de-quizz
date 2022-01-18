@@ -8,7 +8,7 @@
         "Dakar, Marseille et pékin",
         "Marseille,New-York et Lisbonne"
     ],
-    "réponse": "Washington, Pékin et Paris",
+    "reponse": "Washington, Pékin et Paris",
     "anecdote": "Lisbonne et Marseille sont des personnages qui apparaissent dans la troisième saison. »."
     },
     {
@@ -20,7 +20,7 @@
         "Elisabeth II",
         "Anne"
     ],
-    "réponse": "Elisabeth II",
+    "reponse": "Elisabeth II",
     "anecdote": "The Crown est une série Américano-Britanique créée par Peter Morgan "
     },
     {
@@ -32,7 +32,7 @@
         "Stranger Things" ,
         "The Witcher"
     ],
-    "réponse": "Riverdale",
+    "reponse": "Riverdale",
     "anecdote": "Luke Perry a joué dans Beverly hills"
     },
     {
@@ -44,7 +44,7 @@
         "Henry Cavill",
         "Tom Cruise"
     ],
-    "réponse": "Henry Cavill",
+    "reponse": "Henry Cavill",
     "anecdote": "le tres muscle Henry cavill hein Nejma et Marine "
     },
     {
@@ -56,7 +56,7 @@
         "Super Tomate",
         "Spiderman"
     ],
-    "réponse": "Daredevil",
+    "reponse": "Daredevil",
     "anecdote": "Ben Affleck a dû se soumettre à un entrainement intensif pour devenir le super héros Daredevil."
     },
     {
@@ -68,7 +68,7 @@
         "Cersei",
         "John"
     ],
-    "réponse": "Tyrion",
+    "reponse": "Tyrion",
     "anecdote": "Game of Trone est la série la plus piratée de tous les temps."
     },
     {
@@ -80,7 +80,7 @@
         "Karadoc",
         "Merlin"
     ],
-    "réponse": "Karadoc",
+    "reponse": "Karadoc",
     "anecdote": "En termes de blagues/minute, Kamelott est la 2éme série française la plus drole."
     },
     {
@@ -92,7 +92,7 @@
         "Eric Zemmour",
         "Lord Voldemort"
     ],
-    "réponse": "Lord Voldemort",
+    "reponse": "Lord Voldemort",
     "anecdote": "le tournage des 8 films a demandé  160 paires de lunettes pour Harry."
     },
     {
@@ -104,7 +104,7 @@
         "Darkrai",
         "Créhelf"
     ],
-    "réponse": "Elektek",
+    "reponse": "Elektek",
     "anecdote": "Toutes les régions des jeux Pokémon sont inspirées de lieux réels ."
     },
     {
@@ -116,7 +116,7 @@
         "une 2cv",
         "Une Peugeot 403"
     ],
-    "réponse": "Une Peugeot 403",
+    "reponse": "Une Peugeot 403",
     "anecdote": " Peter falk a choisi lui même l'emblématique Peugeot 403 qui appuyait le coté décalé du personnage ."
     },
     {
@@ -128,7 +128,7 @@
         "New York, unité spéciale",
         "NCIS"
     ],
-    "réponse": "Les Simpson",
+    "reponse": "Les Simpson",
     "anecdote": " Les Simpson ont atteint la barre des 636 épisodes en 2018."
     },
     {
@@ -140,7 +140,7 @@
         "518",
         "158"
     ],
-    "réponse": "815",
+    "reponse": "815",
     "anecdote": "La fin de Lost est l'une des fins de série les plus critiquées."
     },
     {
@@ -152,19 +152,19 @@
         "Journaliste",
         "Éditrice de livres"
     ],
-    "réponse": "Éditrice de livres",
+    "reponse": "Éditrice de livres",
     "anecdote": "The Handmaid's Tale est une série résolument féministe."
     },
     {
     "id": 14,
-    "question": "Quel est e prénom du personnage principal dans Prison Break?",
+    "question": "Quel est le prénom du personnage principal dans Prison Break?",
     "propositions": [
         "Michael",
         "Lincolm",
         "Sara",
         "Bryan"
     ],
-    "réponse": "Michael",
+    "reponse": "Michael",
     "anecdote": "Wentworth Miller (michael) a révélé son homosexualité en 2013 au grand désespoir de nombreuses femmes ."
     },
     {
@@ -176,7 +176,7 @@
         "Nom de Zeus",
         "Nom de Dieu"
     ],
-    "réponse": "Nom de zeus",
+    "reponse": "Nom de Zeus",
     "anecdote": "Aucun studio ne voulait produire Retour vers le futur."
     },
     {
@@ -185,10 +185,10 @@
     "propositions": [
         "La cité de la peur",
         "Le pere noel est une ordre ",
-        "Le dinier de cons",
+        "Le diner de cons",
         "L'aile ou la cuisse"
     ],
-    "réponse": "Le diner de cons",
+    "reponse": "Le diner de cons",
     "anecdote": "Les dîners de cons ont vraiment existé chez Castel (restaurant parisien)."
     },
     {
@@ -200,7 +200,7 @@
         "Biloute",
         "Copain"
     ],
-    "réponse": "Biloute",
+    "reponse": "Biloute",
     "anecdote": " Bienvenue chez les ch'tis marque le deuxième plus gros carton de l'histoire derrière Titanic."
     },
     {
@@ -212,7 +212,7 @@
         " Need For Speed",
         "La coccinelle"
     ],
-    "réponse": "Death Race",
+    "reponse": "Death Race",
     "anecdote": "Death Race est un remake de La Course à la mort de l'an 2000."
     },
     {
@@ -224,7 +224,7 @@
         "Stuart Little",
         "Le Monde de Narnia"
     ],
-    "réponse": "Titanic",
+    "reponse": "Titanic",
     "anecdote": " Le 14 avril 1912 à 23h40, Le Titanic a percuté un iceberg et sombré en moins de trois heures."
     },
     {
@@ -236,7 +236,7 @@
         "Astérix et Obélix : Mission Cléopâtre",
         "Le Père Noël est une ordure"
     ],
-    "réponse": "Les Visiteurs",
+    "reponse": "Les Visiteurs",
     "anecdote": "C'est Ginette qui dit cette réplique dans Les Visiteurs.."
     },
     {
@@ -248,7 +248,7 @@
         "...et plus encorec !",
         "...et bien encore "
     ],
-    "réponse": "...et au-dela !",
+    "reponse": "...et au-dela !",
     "anecdote": "Toy Story  s'inspire de l'Arme Fatale."
     },
     {
@@ -260,7 +260,7 @@
         "The OA",
         "Black mirror"
     ],
-    "réponse": "Black mirror",
+    "reponse": "Black mirror",
     "anecdote": "Black Mirror est une série centrée sur le thème de notre rapport à de nouvelles technologies qui partent très souvent en cacahuète."
     },
     {
@@ -272,7 +272,7 @@
         "Le Sux",
         "Le Pux"
     ],
-    "réponse": "Le Lux",
+    "reponse": "Le Lux",
     "anecdote": "Lucifer était tiré d'une bande-dessinée dans les comics The Sandman."
     },
     {
@@ -284,7 +284,7 @@
         "Marcus Kane",
         "Mota"
     ],
-    "réponse": "Jaha",
+    "reponse": "Jaha",
     "anecdote": " Les noms de famille des jeunes personnages de la série ont quasiment tous été inspirés par des auteurs de science-fiction."
     },
     {
@@ -296,7 +296,7 @@
         "Des sauvages",
         "Des monstres"
     ],
-    "réponse": "Des zombies",
+    "reponse": "Des zombies",
     "anecdote": "Deux zombies du film La Nuit Des Morts-Vivants (1985) apparaissent dans la série (épisodes 4X15 et 7X09) et 2 zombies de Bienvenue à Zombieland (2009) dans le premier épisode."
     }
 ]

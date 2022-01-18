@@ -4,68 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="quizz.css">
-    <title>QUIZZ</title>
+
+    <link rel="stylesheet" href="quizz.css"/>
+    <script src="quizz.js" defer></script>
+
+    <title>QUIZ</title>
 </head>
+
+
 <body>
-    <header>
-        <h1>QUIZZ</h1>
-    </header>
-    <main>
-        <form action="#">
-            <h2 id="question">question1</h2>
-            <div class="reponse">  
-                <input type="radio" id="propositionn1" name="question1">
-                <label for="propositionn1" id="label1"></label>
-        
-                <input type="radio" id="propositionn2" name="question1">
-                <label for="propositionn2" id="label2"></label>
+    <h1>QUIZ!</h1>
 
-                <input type="radio" id="propositionn3" name="question1">
-                <label for="propositionn3" id="label3"></label>
+    <form action="">
+        <div id="question0" class="question">
+            <h2>Question 1</h2>
 
-                <input type="radio" id="propositionn4" name="question1">
-                <label for="propositionn4" id="label4"></label>
-            </div>  
-            <h2 id="question">question2</h2>
-            <div class="reponse">
-                <input type="radio" id="propositionn2_1" name="question2">
-                <label for="propositionn2_1"id="label2_1"></label>
-
-                <input type="radio" id="propositionn2_2" name="question2">
-                <label for="propositionn2_2" id="label2_2"></label>
-
-                <input type="radio" id="propositionn2_3" name="question2">
-                <label for="propositionn2_3" id="label2_3"></label>
-            
-                <input type="radio" id="propositionn2_4" name="question2">
-                <label for="propositionn2_4"id="label2_4"></label>
+            <div class="answers">
+                <input type="radio" name="question0" id="" value="">
+                <label for=""></label>
             </div>
-            <h2 id="question">question3</h2>
-            <div class="reponse">
-                <input type="radio" id="propositionn3_1" name="question3">
-                <label for="propositionn3_1" id="label3_1"></label>
-            
-                <input type="radio" id="propositionn3_2" name="question3">
-                <label for="propositionn3_2" id="label3_2"></label>
-            
-                <input type="radio" id="propositionn3_3" name="question3">
-                <label for="propositionn3_3" id="label3_3"></label>
-            
-                <input type="radio" id="propositionn3_4" name="question3">
-                <label for="propositionn3_4" id="label3_4"></label>
-            </div>  
-        <div class="button">
-            <!-- appel de la fonction valider lors du clic sur le bouton -->
-            <button type="submit" class="btn" onclick="valider()">Valider</button>
+            <div class="answers">
+                <input type="radio" name="question0" id="" value="">
+                <label for=""></label>
+            </div>
+            <div class="answers">
+                <input type="radio" name="question0" id="" value="">
+                <label for=""></label>
+            </div>
+            <div class="answers">
+                <input type="radio" name="question0" id="" value="">
+                <label for=""></label>
+            </div>
+            <h3></h3>
         </div>
-        </form>
-    </main>
-    <footer>
-            <label for="score">Votre score:</label>
-            <textarea id="score" name="score"  rows="2" cols="15">
-            </textarea>
-    </footer>
-    <script src="quizz.js"></script>
+
+
+        <div id="question1" class="question">
+            <h2>Question 2</h2>
+
+            <div class="answers">
+                <input type="radio" name="question1" id="reponse" value="">
+                <label for="reponse"></label>
+            </div>
+            <div class="answers">
+                <input type="radio" name="question1" id="reponse" value="">
+                <label for="reponse"></label>
+            </div>
+            <div class="answers">
+                <input type="radio" name="question1" id="reponse" value="">
+                <label for="reponse"></label>
+            </div>
+            <div class="answers">
+                <input type="radio" name="question1" id="reponse" value="">
+                <label for="reponse"></label>
+            </div>
+            <h3></h3>
+        </div>
+
+        
+        <div id="question2" class="question">
+            <h2>Question 3</h2>
+
+            <div class="answers">
+                <input type="radio" name="question2" id="" value="">
+                <label for=""></label>
+            </div>
+            <div class="answers">
+                <input type="radio" name="question2" id="" value="">
+                <label for=""></label>
+            </div>
+            <div class="answers">
+                <input type="radio" name="question2" id="" value="">
+                <label for=""></label>
+            </div>
+            <div class="answers">
+                <input type="radio" name="question2" id="" value="">
+                <label for=""></label>
+            </div>
+            <h3></h3>
+        </div>
+
+        
+
+        <button type="submit">Valider</button>
+    </form>
+
+    <div id="score">
+
+    </div>
+    
 </body>
 </html>
