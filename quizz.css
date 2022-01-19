@@ -33,7 +33,7 @@ h2
 h3{
     color: cornflowerblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+   
 }
 #question{
    
@@ -70,6 +70,10 @@ footer
     display: flex;
     justify-content: flex-end;
 }
+#score{
+    text-align: center;
+    padding: 1em;
+}
 
 .invalid {
     color:  red;
@@ -77,6 +81,7 @@ footer
   
   .valid {
     color: green;
+  }
 
 
 

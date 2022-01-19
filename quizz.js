@@ -1,4 +1,5 @@
-var prenom =prompt("entrez votre votre prénom");
+var prenom =prompt("Bienvenue sur mon quizz  entrez votre votre prénom");
+
 start();
 
 // Évènement lorsque le formulaire est validé, la fonction validation() est déclenchée
@@ -104,9 +105,37 @@ function validation(event) {
    
    // Affiche le score
    document.getElementById('score').innerText = 'VOTRE SCORE : ' + score + ' /3';
-   localStorage.setItem(prenom, score);
 
-}
+  //------------------------------------------localstorage---------------------------------------------------//
+
+
+      var point = {        // je crée un objet
+            prenom : prenom, 
+            score : score
+          }
+     
+      var scores = JSON.parse(localStorage.getItem("prenom")); // recuperer sous forme de tableau
+     console.log(scores);
+     if (scores === null){
+        scores = [];            //  je crée une tableau vide
+     }
+     scores.push(point);
+     localStorage.setItem("prenom",JSON.stringify(scores)); // j ajoute ou je mets a jour mon mlocalstorage et stringify le transforme en chaine JSON
+     scores.sort((a,b) => b.score - a.score);   // fonction sort premet de trier ( ici du plus grand au plus petit)
+     for( let i = 0; i < 5 ; i++){
+        const prenomScore = document.createTextNode((scores[i]. prenom) + " : "); //crée une constante qui va placer mes elements ou je veux
+        const scorestorage = document.createTextNode(scores[i].score);
+        var p = document.createElement("p");   //je crée un paragraphe avec la balise p
+      var topscore = document.getElementById("score");   //recupre ma div dans mon HTML
+         p.appendChild(prenomScore);      //dans le p on insere la premiere partie de mon  createtxtnode 
+         p.appendChild(scorestorage);   //dans le p on insere la deuxieme partie de mon  createtxtnode 
+        topscore.appendChild(p);       // j insere mon element p dans ma div que j ai recuperer (var topscore)
+        
+     }
+   }
+
+
+
 
 
 // Fonction de MÉLANGE ALÉATOIRE d’un tableau
