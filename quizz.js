@@ -1,4 +1,4 @@
-
+var prenom =prompt("entrez votre votre prénom");
 start();
 
 // Évènement lorsque le formulaire est validé, la fonction validation() est déclenchée
@@ -84,26 +84,27 @@ function validation(event) {
       if (inputChecked) {
          var anwser = inputChecked.value; // Réponse choisie
          var goodAnswer = allQuestions[qIndex].reponse; // Bonne réponse
-       
+         var anecdote =  allQuestions[qIndex].anecdote; // je recupere les anecdotes
+         var h3 = document.querySelector('#question' + qIndex + ' h3'); // je recupere mon h3 dans  le HTML
      
          // Si la réponse est bonne
          if (anwser == goodAnswer) {
             score++; // +1
          //affichage bonne réponse en vert
             inputChecked.parentNode.classList.add("valid")//parenNode permet de selectionner le parent de l'imput (ici div answers ds html)
-         
+           h3.innerText = anecdote; // affichage de l'anecdote
          // sinon affichage réponse en rouge
             }else{ 
             inputChecked.parentNode.classList.add("invalid")
          }
-   
+
       }
 
    }
    
    // Affiche le score
    document.getElementById('score').innerText = 'VOTRE SCORE : ' + score + ' /3';
-
+   localStorage.setItem(prenom, score);
 
 }
 
@@ -112,3 +113,20 @@ function validation(event) {
 function shuffleArray(array) {
    return array.sort(() => 0.5 - Math.random());
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
