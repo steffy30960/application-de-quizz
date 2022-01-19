@@ -45,11 +45,11 @@ footer
     justify-content: flex-end;
 }
 
-input:invalid {
+.invalid {
     color:  red;
   }
   
-  input:valid {
+  .valid {
     color: green;
 
 

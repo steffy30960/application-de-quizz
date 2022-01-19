@@ -77,41 +77,26 @@ function validation(event) {
    // Compte le score en parcourant les 3 questions
    for(let qIndex = 0; qIndex < allQuestions.length; qIndex++)
    {
-      // Récupère la valeur de la réponse choisie parmi les 3 <input> de la question
+      // Récupère l imput ( dans html)  de la réponse choisie 
       inputChecked = document.querySelector('input[name=question' + qIndex + ']:checked');
 
       // Si la réponse n'est pas vide
       if (inputChecked) {
          var anwser = inputChecked.value; // Réponse choisie
          var goodAnswer = allQuestions[qIndex].reponse; // Bonne réponse
-        
-
+       
+     
          // Si la réponse est bonne
          if (anwser == goodAnswer) {
-            score++; // +1 
-
-
-
-           // var anecdote = allquestions[qIndex].anecdote; // mes anecdotes
-           //affiche l anecdote qd reponse bonne 
-            //document.getElementById('anecdote').innerHTML = anecdote
-
-
-            
-         //var goodAnswer = document.getElementById('reponse').value;
-         //submitbutton.addEventListener("click",submit)  
-         //if( goodAnswer.checked){
-
-           // input[pIndex]. anecdocte[pIndex];
-         //document.getElementById("answers").style.color="green";
-         //} else {
-
-           // document.getElementById('answers').style.color="red";
-         //}
-
-      
+            score++; // +1
+         //affichage bonne réponse en vert
+            inputChecked.parentNode.classList.add("valid")//parenNode permet de selectionner le parent de l'imput (ici div answers ds html)
+         
+         // sinon affichage réponse en rouge
+            }else{ 
+            inputChecked.parentNode.classList.add("invalid")
          }
-
+   
       }
 
    }
@@ -120,28 +105,7 @@ function validation(event) {
    document.getElementById('score').innerText = 'VOTRE SCORE : ' + score + ' /3';
 
 
-}  
-
-
-
-
-
-//submitbutton.addEventListener("click",submit)     //mettre id submit dans html sur button
-// if answer is correct
-//if(answer=== goodAnswer){
-    // add to the number of correct answers
-//numCorrect++;
-    // color the answers green
-  
-    //answer.style.color = 'lightgreen';
-//}
-// if answer is wrong or blank
-//else{
-    // color the answers red
-   // document.getElementById("answers") .style.color = 'red';
-    //answer.style.color = 'red';
-
-
+}
 
 
 // Fonction de MÉLANGE ALÉATOIRE d’un tableau
