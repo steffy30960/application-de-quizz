@@ -85,13 +85,29 @@ function validation(event) {
          var anwser = inputChecked.value; // Réponse choisie
          var goodAnswer = allQuestions[qIndex].reponse; // Bonne réponse
         
+
          // Si la réponse est bonne
          if (anwser == goodAnswer) {
             score++; // +1 
-           
 
 
-       
+
+           // var anecdote = allquestions[qIndex].anecdote; // mes anecdotes
+           //affiche l anecdote qd reponse bonne 
+            //document.getElementById('anecdote').innerHTML = anecdote
+
+
+            
+         //var goodAnswer = document.getElementById('reponse').value;
+         //submitbutton.addEventListener("click",submit)  
+         //if( goodAnswer.checked){
+
+           // input[pIndex]. anecdocte[pIndex];
+         //document.getElementById("answers").style.color="green";
+         //} else {
+
+           // document.getElementById('answers').style.color="red";
+         //}
 
       
          }
@@ -104,12 +120,26 @@ function validation(event) {
    document.getElementById('score').innerText = 'VOTRE SCORE : ' + score + ' /3';
 
 
-   
-}
+}  
 
 
 
 
+
+//submitbutton.addEventListener("click",submit)     //mettre id submit dans html sur button
+// if answer is correct
+//if(answer=== goodAnswer){
+    // add to the number of correct answers
+//numCorrect++;
+    // color the answers green
+  
+    //answer.style.color = 'lightgreen';
+//}
+// if answer is wrong or blank
+//else{
+    // color the answers red
+   // document.getElementById("answers") .style.color = 'red';
+    //answer.style.color = 'red';
 
 
 
